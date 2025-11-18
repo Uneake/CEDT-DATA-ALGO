@@ -13,7 +13,7 @@ main(){
         all_c+=c;
     }
     int i=0;
-    for(auto p:multiple){
+    for(auto &p:multiple){
         arr[i+p.second]=p.first;
         i+=p.second;
     }
